@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-decoration: none;
+}
+.contentBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 7px;
+}
+.subBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #272727;
+  border-radius: 4px;
+  margin: 15px 0;
+  flex: auto;
+}
