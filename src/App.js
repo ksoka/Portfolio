@@ -21,7 +21,7 @@ function App() {
               <Route path="/Hobbies" element={<Hobbies />} />
               <Route path="/Contact" element={<Contact />} />
           </Routes>
-        <Footer />
+        {/* <Footer /> */}
         </div>
       </BrowserRouter>
     </div>

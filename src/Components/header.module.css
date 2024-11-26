@@ -1,9 +1,43 @@
-.header{
+.headermain{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 1vh;
-    width: 11vw;
+    width: 185px;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
     height: 100%;
     /* background-color: #272727; */
+}
+
+.header a{
+    padding: 15px;
+    background-color: #272727;
+    border-radius: 4px;
+    margin: 5px 0 5px 0;
+}
+
+.header a:first-child{
+    margin-top: 15px;
+}
+
+.footer{
+    /* position: absolute;
+    bottom: 0; */
+    /* padding: 5vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer a{
+    background-color: #272727;
+    padding: 9px;
+    margin: 3px;
+    border-radius: 4px;
 }
