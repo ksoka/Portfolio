@@ -7,6 +7,7 @@ export default function Jobs(props) {
     let cavokapp;
     let mediaTek;
     let profilence;
+    let academic;
 
     earlyJobs = ( 
         <>
@@ -70,6 +71,17 @@ export default function Jobs(props) {
         </div>
         </>
     )
+    academic = (
+        <>
+        <h2>Academic credits</h2>
+        <h3>Secondary school graduate</h3>
+        <h4>Madetojan musiikilukio</h4>
+        <div>Finnish secondary school education with applied musical education</div>
+        <h3>Bachelors degree</h3>
+        <h4>Oulun Ammattikorkeakoulu / Oulu University of Applied Sciences</h4>
+        <div>Bachelors degree in engineering and information technology from OUAS</div>
+        </>
+    )
 
     const [content, display] = useState(earlyJobs);
 
@@ -83,6 +95,7 @@ export default function Jobs(props) {
                     <button onClick={() => display(cavokapp)}>Laskukierros/Cavokapp</button>
                     <button onClick={() => display(mediaTek)}>MediaTek</button>
                     <button onClick={() => display(profilence)}>Profilence</button>
+                    <button onClick={() => display(academic)}>Academic credits</button>
                 </div>
                 <div className="textBox">
                     {content}

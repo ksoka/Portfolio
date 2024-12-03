@@ -4,7 +4,7 @@ export default function Contact() {
     return(
         <>
             <div className="subBox">
-                <h2>Perse</h2>
+                <h2>WIP</h2>
             </div>
         </>
     )
