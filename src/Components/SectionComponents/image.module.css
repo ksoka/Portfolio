@@ -1,0 +1,8 @@
+.image {
+    text-align: center !important;
+    margin: 25px;
+}
+
+.image img{
+    width: 75%;
+}

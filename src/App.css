@@ -15,27 +15,40 @@
 .subBox{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #272727;
   border-radius: 4px;
   margin: 15px 0;
   flex: auto;
-  position: relative;
-}
-.subBox div{
-  width: 70%;
 }
 
 .buttonContainer{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 70%;
+  margin: 50px;
+}
+
+.textBox{
+  width: 70%;
 }
 
 .textBox div{
   text-align: start;
-  width: 100%;
+}
+
+.yearBox {
+  display: flex;
+  align-items: center;
+}
+
+.yearBox h3{
+  color: #1d814c;
+}
+.yearBox h4{
+  color: #1d814c5d;
+  margin-left: 5px;
 }
 
 button {

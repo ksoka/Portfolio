@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Title from "./SectionComponents/Title";
+import Image from "./SectionComponents/ImgContainer";
+import lehma from "./tempimages/p5wall.jpg"
 
 export default function Hobbies() {
     
@@ -12,6 +14,7 @@ export default function Hobbies() {
     guitar = (
         <>
         <h2>Guitar</h2>
+        <Image alt="image" imgsrc={lehma} />
         <div>I've been playing guitar since I was 13 years old. I started it with electric guitar however nowadays I play acoustic
              guitar in fingerstyle. When I was in my high school at Madetoja I was in a couple of bands. However after school I've
              been playing just by myself. I mainly play cover songs from movies, other artists and games. I arrange the songs myself
