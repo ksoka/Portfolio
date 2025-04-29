@@ -1,8 +1,11 @@
 .image {
-    text-align: center !important;
-    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .image img{
-    width: 75%;
+    width: 90%;
 }

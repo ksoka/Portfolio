@@ -1,6 +1,18 @@
 .intro{
-    padding: 15vh;
-    background-color: black;
+    padding: 1vh 15vw;
     color: white;
     font-size: 5vw;
+    z-index: 1;
+    position: absolute;
+}
+
+.intro img {
+    width: 50% !important;
+}
+.introVideo{
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }

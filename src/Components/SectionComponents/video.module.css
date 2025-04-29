@@ -1,0 +1,9 @@
+.video{
+    filter: brightness(0.5);
+    /* position: absolute; */
+    border-radius: 4px;
+    margin: 4px 0;
+}
+.video video{
+    width: 100%;
+}

@@ -41,6 +41,8 @@
 .yearBox {
   display: flex;
   align-items: center;
+  border: 0px !important;
+  width: auto !important;
 }
 
 .yearBox h3{
@@ -51,9 +53,37 @@
   margin-left: 5px;
 }
 
+.textContent{
+  display: flex;
+}
+
+.textContextText{
+  overflow: auto;
+  height: 46vh;
+  padding: 25px;
+}
+
+.textContent div {
+  width: 50%;
+  border: 5px solid #1d814c;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.introContent {
+  background-color: #272727;
+  display: flex;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
 button {
   background-color: #F5CDA7;
-  padding: 9px;
+  padding: 12px;
   border: 1px solid #F5CDA7;
   border-radius: 4px;
 }

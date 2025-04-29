@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 1vh;
+    padding: 0 1vh;
     width: 185px;
     height: 100%;
 }
@@ -10,16 +10,15 @@
 .header{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     height: 100%;
-    /* background-color: #272727; */
 }
 
 .header a{
     padding: 15px;
-    background-color: #272727;
+    background-color: #F5CDA7;
     border-radius: 4px;
     margin: 5px 0 5px 0;
+    color: #272727;
 }
 
 .header a:first-child{
@@ -31,8 +30,9 @@
     bottom: 0; */
     /* padding: 5vh; */
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin-bottom: 15px;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
 }
 
 .footer a{
